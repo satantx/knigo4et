@@ -16,7 +16,11 @@
 	        <h1><?= $title ?></h1>
 	    </div>
 	    <div class="header-search">
-	        <input type="text" class="search" placeholder="Поиск книги">
+		<? if ($bookEdit) {?>
+			<input type="text" class="search" placeholder="Поиск книги">
+		<? } else { ?>
+			<input type="text" class="search" placeholder="Поиск автора">
+		<? } ?>
 	    </div>
 	</div>
 	<div class="wrap">
