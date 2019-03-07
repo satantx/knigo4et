@@ -16,8 +16,8 @@ try {
         <?php
         sortName($author['name']);
         ?>
-    <li class="js-author" data-id="<?= $author['id'] ?>">
-        <a href="/book?id=<?= $author['id'] ?>"><?= $author['name'] ?></a>
+    <li>
+        <a href="/book?id=<?= $author['id'] ?>" class="list-item js-author" data-id="<?= $author['id'] ?>"><?= $author['name'] ?></a>
     </li>
     <? } ?>
 </ul>

@@ -26,7 +26,7 @@ $bookEdit = true;
         <?php
         sortName($book['title']);
         ?>
-        <li class="js-book <?= $book['visible'] ? 'availability' : 'not-availability'; ?>"
+        <li class="list-item js-book <?= $book['visible'] ? 'availability' : 'not-availability'; ?>"
             data-id="<?= $book['id'] ?>"
             data-modal="edit-book"
         ><?= $book['title'] ?></li>

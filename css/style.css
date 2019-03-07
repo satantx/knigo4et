@@ -229,13 +229,11 @@ h1 {
   box-shadow: 0 0 0 2px #075BEC, 0 3px 6px rgba(7, 91, 236, 0.2);
 }
 
-.list li {
+.list-item {
   padding: 7px 0;
   cursor: pointer;
-}
-
-.list li a {
   color: #000;
+  display: block;
 }
 
 .list li.letter {
