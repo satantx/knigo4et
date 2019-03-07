@@ -2,10 +2,8 @@
 
 include '../config/bd.php';
 
-$getId = $_REQUEST['author'];
-$id = key($getId);
-
-$name = $getId[$id];
+$id = $_REQUEST['author-edit-id'];
+$name = $_REQUEST['author-edit-name'];
 
 if (isset($_POST['save'])) {
     $sql = 'UPDATE authors SET name = :name WHERE id = :id';

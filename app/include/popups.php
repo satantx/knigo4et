@@ -45,7 +45,8 @@
             <div class="modal-wrap">
                 <div class="modal-title">Редактировать автора</div>
                 <div class="input-block">
-                    <input type="text" class="input" placeholder="Имя автора" name="author[<?= $authorId ?>]" value="<?= $titlePage ?>">
+                	<input type="text" name="author-edit-id" value="<?= $authorId ?>"  hidden/>
+                    <input type="text" name="author-edit-name" value="<?= $titlePage ?>" class="input" placeholder="Имя автора" >
                 </div>
             </div>
             <div class="modal-footer flex flex-right">

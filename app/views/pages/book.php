@@ -1,4 +1,5 @@
 <?php
+
 $authorId = $_REQUEST['id'];
 
 try {
